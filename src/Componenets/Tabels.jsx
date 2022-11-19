@@ -102,7 +102,6 @@ const DemoTable = () => {
   const editData = (value) => {
     navigate(`/edit/${value} `, { state: { query: value } });
   };
-  // console.log("dataaa", data);
 
   return (
     <>
